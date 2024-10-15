@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><head><meta name="GCD" content="YTk3ODQ3ZWZhN2I4NzZmMzBkNTEwYjJlf279d8400a3f03dc2d6a26bfd8f6028c"/>
+<html><head><meta name="GCD" content="YTk3ODQ3ZWZhN2I4NzZmMzBkNTEwYjJl5982aa821cb7c1269dc91b334216dc41"/>
   <meta charset="utf-8">
   <meta name="generator" content="Google Web Designer 16.1.0.0530">
   <meta name="template" content="Banner 3.0.0">
@@ -108,7 +108,6 @@ f.goToPreviousPage=function(a,b,c,d,e){var g=this.h,h=this.g.length,k=g-1;0>k&&(
 f.getDefaultPage=function(){var a=this.getAttribute("default-page");return a?this.getPage(this.findPageIndexByAttributeValue("id",a)):this.getPage(0)};f.getOrientationSpecificPage=function(a,b){b=this.getPage(b);var c=b.getAttribute("alt-orientation-page");if(!c)return b;var d=b.isPortrait();a=1==a;c=this.getPage(c);return a==d?b:c};f.o=function(a,b){if(b.target==document.body){var c=this.getPage(this.h);y(a,c,b.detail)}};
 f.getElementById=function(a){for(var b=this.g.length,c=0;c<b;c++){var d=this.g[c].querySelector("#"+a);if(d)return d}return null};f.getElementsBySelector=function(a){for(var b=this.g.length,c=[],d=0;d<b;d++){var e=this.g[d].querySelectorAll(a);e&&(c=c.concat(Array.prototype.slice.call(e)))}return c};m.Object.defineProperties(T.prototype,{currentIndex:{configurable:!0,enumerable:!0,get:function(){return 0<=this.h?this.h:void 0}}});customElements.define("gwd-pagedeck",T);}).call(this);
 </script>
-  <script data-source="https://ajax.googleapis.com/ajax/libs/model-viewer/1.6.0/model-viewer.min.js" data-exports-type="gwd-3d-model-viewer" type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/1.6.0/model-viewer.min.js"></script>
   <script data-source="gwd3dmodelviewer_min.js" data-version="2" data-exports-type="gwd-3d-model-viewer">(function(){'use strict';var f;function aa(a){var b=0;return function(){return b<a.length?{done:!1,value:a[b++]}:{done:!0}}}function ba(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var c=a[b];if(c&&c.Math==Math)return c}throw Error("Cannot find global object");}var ca=ba(this);
 function g(a){var b="undefined"!=typeof Symbol&&Symbol.iterator&&a[Symbol.iterator];if(b)return b.call(a);if("number"==typeof a.length)return{next:aa(a)};throw Error(String(a)+" is not an iterable or ArrayLike");}var da="function"==typeof Object.create?Object.create:function(a){function b(){}b.prototype=a;return new b},m;
 if("function"==typeof Object.setPrototypeOf)m=Object.setPrototypeOf;else{var n;a:{var ea={a:!0},p={};try{p.__proto__=ea;n=p.a;break a}catch(a){}n=!1}m=n?function(a,b){a.__proto__=b;if(a.__proto__!==b)throw new TypeError(a+" is not extensible");return a}:null}var q=m;/*
@@ -254,6 +253,7 @@ function I(a,b){var c=a.g.get(b),d=a.h.get(b)||{};if(c){c.j.style.display="none"
 m("gwd.textfitting.saveInitialText",function(a){for(var b=H,c=document.createNodeIterator(a,NodeFilter.SHOW_TEXT,null,!1),d=null,e;e=c.nextNode();)if(F.test(e.textContent)){d=e;break}if(d&&(c=d.parentNode,c!=a)){a.setAttribute("gwd-dont-fit","");for(d=c;d.parentNode!=a;)d=d.parentNode;b.g.set(a,{j:d,parent:c})}});m("gwd.textfitting.saveStyleOverride",function(a,b,c){var d=H,e=d.h.get(a)||{};e[b]=c;d.h.set(a,e)});m("gwd.textfitting.setFontSizeReductionEnabled",function(a){w.h=a});
 m("gwd.textfitting.setMinFontSizePx",function(a){w.i=a});m("gwd.textfitting.setTruncationEnabled",function(a){w.m=a});m("gwd.textfitting.unfitAll",function(){v()});}).call(this);
 </script>
+  <script data-source="https://ajax.googleapis.com/ajax/libs/model-viewer/1.6.0/model-viewer.min.js" data-exports-type="gwd-3d-model-viewer" type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/1.6.0/model-viewer.min.js"></script>
 </head>
 
 <body class="document-body">
@@ -289,6 +289,24 @@ m("gwd.textfitting.setMinFontSizePx",function(a){w.i=a});m("gwd.textfitting.setT
   <script gwd-events="registration">gwd.actions.events.registerEventHandlers=function(event){gwd.actions.events.addHandler("gwd-3d-model-viewer_1","interaction-start",gwd.handleInteractionStart,false);gwd.actions.events.addHandler("cta-button","action",gwd.openpage,false);gwd.actions.events.addHandler("logo-button","action",gwd.auto_Logo_buttonAction,false);gwd.actions.events.addHandler("logo-button","action",gwd.reportEngagement,false)};gwd.actions.events.deregisterEventHandlers=function(event){gwd.actions.events.removeHandler("gwd-3d-model-viewer_1","interaction-start",gwd.handleInteractionStart,false);gwd.actions.events.removeHandler("cta-button","action",gwd.openpage,false);gwd.actions.events.removeHandler("logo-button","action",gwd.auto_Logo_buttonAction,false);gwd.actions.events.removeHandler("logo-button","action",gwd.reportEngagement,false)};document.addEventListener("DOMContentLoaded",gwd.actions.events.registerEventHandlers);document.addEventListener("unload",gwd.actions.events.deregisterEventHandlers);</script>
   <script gwd-events="handlers">window.gwd=window.gwd||{};var originalPage=document.getElementById("banner-page");gwd.handleInteractionStart=function(event){originalPage.classList.add("interacting-with-swirl")};gwd.reportEngagement=function(event){Enabler.reportEngagement()};gwd.auto_Logo_buttonAction=function(event){gwd.actions.gwdGoogleAd.exit("gwd-ad","logoExit","https://www.google.com",true,true,"banner-page")};gwd.openpage=function(event){window.open("https://hiukim.github.io/mind-ar-js-doc/face-tracking-samples/minimal.html","_self")};</script>
   <script id="gwd-init-code">
+    if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+      navigator.mediaDevices.getUserMedia({
+          video: true
+        })
+        .then(function(stream) {
+          // Handle the video stream
+          var video = document.createElement('video');
+          video.srcObject = stream;
+          video.autoplay = true;
+          video.style.width = '100%';
+          document.body.appendChild(video);
+        })
+        .catch(function(err) {
+          console.log("Error accessing camera: " + err.name);
+        });
+    } else {
+      alert('Your browser does not support camera access.');
+    }
     (function() {
       var gwdAd = document.getElementById('gwd-ad');
 
